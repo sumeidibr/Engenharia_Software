@@ -1,0 +1,12 @@
+.frame{
+    background-color: rgb(249, 249, 249);
+    width: 400px;
+    height: 700px;
+    margin: auto;
+    margin-left: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    background: #ececec;
+}
