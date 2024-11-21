@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/home.css";
-import { Link } from "react-dom-router";
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+// import { Link } from "react-dom-router";
+// import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 const login = () =>  {
   return (
    <div className="Home">
@@ -17,10 +17,10 @@ const login = () =>  {
 
     </div>
 
-    <Link to="/bilhetes">
+    {/*<Link to="/bilhetes">
       <div className="pesquisar">
       </div>
-    </Link>
+    </Link>*/}
     </div>
 
     <div className="menu">

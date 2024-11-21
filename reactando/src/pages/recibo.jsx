@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-dom-router";
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+//import { Link } from "react-dom-router";
+//import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import "../style/recibo.css";
 
 
@@ -11,11 +11,11 @@ const login = () =>  {
     <div className="recib">
 
     </div>
-    <Link to="/localizacao">
+   {/* <Link to="/localizacao">
       <button  className="loc">
           Localizar em tempo real
       </button>
-    </Link>
+    </Link>*/}
 
     <button className="down">
         Download

@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/bilhetes.css";
-import {Link} from "react-dom-router";
+//import {Link} from "react-dom-router";
 
 const login = () =>  {
   return (
@@ -9,7 +9,7 @@ const login = () =>  {
 
     </div>
     <div className="ticket">
-        <Link to="/detalhesBilhetes">
+       
               <div className="bilhetes">
           
               </div>
@@ -19,9 +19,10 @@ const login = () =>  {
               </div>
               <div className="bilhetes">
               </div>
+            {/*  <Link to="/detalhesBilhetes">
               <div className="bilhetes">
               </div>
-        </Link>
+        </Link>*/}
     </div>
    </div>
   );

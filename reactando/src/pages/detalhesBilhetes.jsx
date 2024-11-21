@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/detalhesBilhetes.css";
-import {Link} from "react-dom-router";
+//import {Link} from "react-dom-router";
 
 const login = () =>  {
   return (
@@ -16,10 +16,10 @@ const login = () =>  {
         <div className="ass">
 
         </div>
-        <Link to="/reserva">
+      {/*  <Link to="/reserva">
           <div className="btn">
           </div>
-        </Link>
+        </Link>*/}
    </div>
    </div>
   );
